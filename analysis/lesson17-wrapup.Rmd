@@ -6,7 +6,7 @@ output:
     toc: true
 ---
   
-```{r setup}
+```{r setup, include = FALSE}
 knitr::opts_knit$set(root.dir = "../docs")
 knitr::opts_chunk$set(echo = TRUE, fig.path="lesson17-files/")
 ```
