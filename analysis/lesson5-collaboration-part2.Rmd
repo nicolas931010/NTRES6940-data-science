@@ -2,12 +2,12 @@
 title: "Lesson 5: Collaborating with GitHub and making websites with GitHub Pages - Part 2"
 output: 
   html_document:
-    keep_md: yes 
     toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "../docs")
 ```
 
 <br>

@@ -2,12 +2,11 @@
 title: "Lesson 6: Plotting with ggplot, part 1"
 output: 
   html_document:
-    keep_md: yes 
     toc: true
 ---
   
 ```{r setup, include=FALSE}
-knitr::opts_knit$set(base.dir = "/Users/mariaakopyan/Github/NTRES6940-data-science/docs")
+knitr::opts_knit$set(root.dir = "../docs", base.dir = "../docs")
 knitr::opts_chunk$set(echo = TRUE, fig.path="lesson6-files/")
 ```
 

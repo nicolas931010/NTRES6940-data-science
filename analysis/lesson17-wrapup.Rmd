@@ -2,12 +2,11 @@
 title: "Lesson 17: Wrapping up and looking ahead"
 output: 
   html_document:
-    keep_md: yes 
     toc: true
 ---
   
 ```{r setup, include = FALSE}
-knitr::opts_knit$set(root.dir = "../docs")
+knitr::opts_knit$set(root.dir = "../docs", base.dir = "../docs")
 knitr::opts_chunk$set(echo = TRUE, fig.path="lesson17-files/")
 ```
 

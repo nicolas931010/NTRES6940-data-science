@@ -2,11 +2,11 @@
 title: "Lesson 3: Version control and the Git/GitHub workflow"
 output: 
   html_document:
-    keep_md: yes 
     toc: true
 ---
   
 ```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = "../docs")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
